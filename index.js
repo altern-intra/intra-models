@@ -3,5 +3,5 @@ const models = require('require-all')({
   excludeDirs :  /^\.(git|svn)$/,
   recursive   : true
 });
-
+console.log(models)
 module.exports = models;
