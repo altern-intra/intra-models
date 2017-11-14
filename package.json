@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Wats0ns/intra-models#readme",
   "dependencies": {
-    "mongoose": "^4.13.2"
+    "mongoose": "^4.13.2",
+    "require-all": "^2.2.0"
   }
 }
