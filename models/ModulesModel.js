@@ -49,7 +49,7 @@ class ModuleClass {
   getSchema() {
     return this.db.model('Module', this.module.loadClass(ModuleClass));
   }
-
+  
   // Deprecated atm
   getModules(params = {}) {
     const { instance, semester, codeModule } = params;
