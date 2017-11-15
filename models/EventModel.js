@@ -14,6 +14,7 @@ const Event = new mongoose.Schema({
   teacher: Array,
   duration: Number,
   room: Array,
+  registered: Array
 })
 
 
